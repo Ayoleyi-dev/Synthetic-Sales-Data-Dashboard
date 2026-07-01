@@ -1,24 +1,24 @@
-# Excel Project: Data Generation & Dynamic Dashboards
+# Excel: Synthetic Data Generation & Dynamic Dashboards
 
-This project demonstrates two key Excel skills:
-1.  Generating a realistic, synthetic dataset from scratch.
-2.  Building a dynamic dashboard that automatically updates when new data is added.
+![Dashboard Screenshot](Sales_data_dashboard.png)
 
-## Project Process
+## Overview
+This project demonstrates end-to-end data manipulation in Excel[cite: 13], focusing on two core competencies:
+1. **Procedural Data Generation:** Constructing a realistic, synthetic dataset from scratch[cite: 13].
+2. **Automated Reporting:** Building a dynamic dashboard architecture that automatically updates when new data is ingested[cite: 13].
 
-1.  **Data Generation:** I created a 200-row sales report for a fake electronics store. I used functions like `=RANDBETWEEN()`, `=CHOOSE()`, and `=DATE()` to randomly populate fields for `Date`, `Product`, `Region`, and `Units Sold`.
-2.  **Analysis:** I used Pivot Tables to analyze the data.
-3.  **Dashboard:** I built a dashboard based on an Excel Table, ensuring all charts and pivots update by simply clicking "Refresh All" when new data rows are added to the table.
+## Project Workflow
+1. **Data Generation:** Developed a 200-row transactional sales report for a fictional electronics retailer[cite: 13]. Leveraged Excel functions such as `=RANDBETWEEN()`, `=CHOOSE()`, and `=DATE()` to randomly populate constraints for `Date`, `Product`, `Region`, and `Units Sold`[cite: 13].
+2. **Data Modeling & Analysis:** Structured the raw data as a dynamic Excel Table and utilized Pivot Tables for categorical aggregation[cite: 13].
+3. **Dashboard Architecture:** Designed a front-end dashboard linked directly to the Pivot Tables[cite: 13]. Because the underlying data is housed in a defined Excel Table, the entire dashboard updates dynamically via the "Refresh All" command when new rows are added[cite: 13].
 
-## Key Insights from the (Fake) Data
+## Key Insights (Synthetic Data)
+* **Top Performing Product:** CPU
+* **Highest Revenue Region:** South
 
-* **Top Product:** [CPU'S]
-* **Top Region:** [WEST]
-
-## Tools Used
-
-* Microsoft Excel
-* Excel Functions (`RANDBETWEEN`, `CHOOSE`)
-* Excel Tables (for dynamic ranges)
-* Pivot Tables & PivotCharts
-* Dynamic Dashboards ("Refresh All" feature)
+## Technical Skills Applied
+* **Microsoft Excel**
+* **Procedural Functions:** `RANDBETWEEN`, `CHOOSE`[cite: 13]
+* **Data Modeling:** Excel Tables (Dynamic Ranges)[cite: 13]
+* **Aggregation:** Pivot Tables & PivotCharts[cite: 13]
+* **Reporting:** Dynamic Dashboards ("Refresh All" automation)[cite: 13]
